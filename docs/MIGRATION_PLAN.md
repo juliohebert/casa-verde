@@ -1101,7 +1101,7 @@ Objetivo: remover riscos imediatos e preparar o repositorio.
 - [ ] Verificar se `.env.production` do `ref` contem segredos ainda validos.
 - [ ] Remover segredos de documentacao e historico antes de publicar o repo.
 - [ ] Confirmar que `ref/` sera apenas referencia e nao parte do build.
-- [ ] Adicionar `.env.example`.
+- [x] Adicionar `.env.example`.
 - [ ] Definir Node.js 20+ no projeto e CI.
 - [ ] Decidir URL final e URLs permitidas no Supabase Auth.
 
@@ -1126,14 +1126,14 @@ Entrega: aplicacao navegavel com layout e design system, ainda sem dados reais.
 
 Objetivo: criar a base versionada.
 
-- [ ] Instalar/configurar Supabase CLI.
-- [ ] Criar enums, tabelas, indices, constraints e triggers.
-- [ ] Ativar RLS.
-- [ ] Criar policies.
-- [ ] Criar bucket e policies de Storage.
-- [ ] Criar seed demo.
-- [ ] Gerar tipos TypeScript.
-- [ ] Criar testes de schema/RLS.
+- [x] Instalar/configurar Supabase CLI.
+- [x] Criar enums, tabelas, indices, constraints e triggers.
+- [x] Ativar RLS.
+- [x] Criar policies.
+- [x] Criar bucket e policies de Storage.
+- [x] Criar seed demo.
+- [x] Gerar tipos TypeScript.
+- [x] Criar testes de schema/RLS.
 
 Entrega: `supabase db reset` constroi um ambiente funcional do zero.
 
